@@ -1,0 +1,1 @@
+import{r as e}from"./request-a5c2cf21.js";const o=async s=>e.post("/user/login",s),r=async()=>e.get("/user/getUserInfo"),n=async s=>e.get("/user/getUserList",{params:s}),a=async s=>e.post("/user/register",s),c=async s=>e.get("/user/getRoleInfoByUserId",{params:s}),g=async s=>e.post("/user/editUserInfo",s);export{a,c as b,r as c,g as e,n as g,o as l};
